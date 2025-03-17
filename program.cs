@@ -1,16 +1,20 @@
+using ConsoleApp;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HelloWorld
+namespace MethodOverriding
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Cat cat = new Cat();
+            cat.eat();
+
+            Console.ReadKey();
         }
     }
 }
